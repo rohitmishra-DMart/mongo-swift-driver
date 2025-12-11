@@ -32,6 +32,8 @@ BSON_BEGIN_DECLS
  *
  * Private storage for Secure Transport Streams
  */
+#include <Security/SecureTransport.h>
+
 typedef struct {
    SSLContextRef ssl_ctx_ref;
    CFArrayRef anchors;
